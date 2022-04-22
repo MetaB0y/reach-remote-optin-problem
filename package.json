@@ -1,0 +1,15 @@
+{
+  "name": "reach-remote-optin-problem",
+  "description": "omg",
+  "version": "13.0.2",
+  "main": "index.mjs",
+  "dependencies": {
+    "@reach-sh/stdlib": "0.1.10-rc.1",
+    "loglevel": "^1.8.0"
+  },
+  "scripts": {
+    "cli": "node cli.mjs",
+    "compile": "reach compile",
+    "test": "npx jest --forceExit"
+  }
+}
